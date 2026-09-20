@@ -27,8 +27,7 @@ public:
             s.push({val, val});
         }
         else {
-            // Find the minimum between
-            // current value and previous minimum
+            // Find the minimum between current value and previous minimum
             int minVal = min(val, s.top().second);
             // Store value and current minimum
             s.push({val, minVal});
