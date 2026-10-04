@@ -6,22 +6,22 @@
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-class Solution {
-public:
-    ListNode* reverseList(ListNode* head) {
-        ListNode* prev = NULL;
-        ListNode* current = head;
+// class Solution {
+// public:
+//     ListNode* reverseList(ListNode* head) {
+//         ListNode* prev = NULL;
+//         ListNode* current = head;
 
-        while (current != NULL) {
-            ListNode* next = current->next;
-            current->next = prev;
-            prev = current;
-            current = next;
-        }
+//         while (current != NULL) {
+//             ListNode* next = current->next;
+//             current->next = prev;
+//             prev = current;
+//             current = next;
+//         }
 
-        return prev;
-    }
-};
+//         return prev;
+//     }
+// };
